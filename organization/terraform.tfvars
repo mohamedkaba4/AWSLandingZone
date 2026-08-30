@@ -1,0 +1,6 @@
+log_archive_email     = "kabax44+aws-log-archive@gmail.com"
+audit_email           = "kabax44+aws-audit@gmail.com"
+network_email         = "kabax44+aws-network@gmail.com"
+shared_services_email = "kabax44+aws-shared-services@gmail.com"
+development_email     = "kabax44+aws-development@gmail.com"
+production_email      = "kabax44+aws-production@gmail.com"
