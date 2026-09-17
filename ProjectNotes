@@ -1,0 +1,12 @@
+Design choices made and trade-offs
+Chose to deploy architecture with Terraform
+Trade-off: 
+
+
+Problems I ran into, and how to troubleshoot them?
+Ran into 
+
+What did I learn from the project?
+How to deploy managed Landing Zones with IaC
+
+What would I change if this were supporting real production traffic?
