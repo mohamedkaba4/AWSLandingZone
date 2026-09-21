@@ -2,6 +2,11 @@
 
 The project provides a standardized way to provision and govern Azure subscriptions for new teams, departments, applications, and environments without manually rebuilding security, networking, policy, and access controls each time.
 
+Real-world use cases:
+- a new department like Finance, Engineering, or Data getting its own governed subscription set
+- onboarding a new application team that needs separate dev, test, and prod subscriptions
+- a newly acquired business unit that needs to be integrated into the company’s Azure governance model
+
 ## Platform and Workload Architecture
 AWS multi-account landing zone designed to provide secure, scalable, and governed cloud environments using Infrastructure as Code.
 
