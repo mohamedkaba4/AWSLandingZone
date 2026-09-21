@@ -1,6 +1,6 @@
 ### Mavencrest AWS Multi-Account Landing Zone
 
-The project provides a standardized way to provision and govern Azure subscriptions for new teams, departments, applications, and environments without manually rebuilding security, networking, policy, and access controls each time.
+The project provides a standardized way to provision and govern AWS accounts for new teams, departments, applications, and environments without manually rebuilding security, networking, policy, and access controls each time.
 
 Real-world use cases:
 - a new department like Finance, Engineering, or Data getting its own governed subscription set
@@ -10,9 +10,9 @@ Real-world use cases:
 ## Platform and Workload Architecture
 AWS multi-account landing zone designed to provide secure, scalable, and governed cloud environments using Infrastructure as Code.
 
-It has a shared platform layer for management groups, policies, monitoring, security, and hub networking, plus a separate production workload repo for the prod spoke VNet, subnet, NSG, and hub-spoke peering. (Deployed with ALZ Accelerator working as a template)
+It has a shared platform layer for management groups, policies, monitoring, security, and hub networking, plus a separate production workload repo for the prod spoke VPC, subnet, subnets, and hub-spoke peering. (Deployed with 
 
-Terraform state is centrally stored in Azure Storage, with separate state files for the platform and workload environments. Azure Policy is actively enforcing standards, and CI/CD is being set up with separate plan and apply identities using workload identity federation and least-privilege RBAC.
+Terraform state is centrally stored in Azure Storage, with separate state files for the platform and workload environments. 
 
 ## Scope
 
